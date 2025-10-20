@@ -49,7 +49,7 @@ npm start
 
 Buka [http://localhost:3000](http://localhost:3000) di browser.
 
-## 📦 Build untuk Production
+## Build untuk Production
 ```bash
 npm run build
 ```
@@ -72,19 +72,10 @@ File production akan ada di folder `build/`.
 | Solusi | Semua (6 solusi) | 1 atau 0 |
 | Jaminan | Pasti ketemu | Bisa terjebak |
 
-## 📸 Screenshot
 
-*Tambahkan screenshot visualisasi Anda di sini*
+## Author
 
-## 👨‍💻 Author
+**Muhammad Daffa Hakim Matondang**  
+Tugas Kuliah - Inteligensi Buatan
 
-**Muhammad Dakim**  
-Tugas Kuliah - Kecerdasan Buatan
 
-## 📝 License
-
-MIT License
-
----
-
-⭐ **Star repository ini jika bermanfaat!**
