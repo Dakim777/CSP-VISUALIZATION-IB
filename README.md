@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# 🎓 CSP Visualization - Pembagian Tugas Kelompok
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visualisasi interaktif untuk menyelesaikan Constraint Satisfaction Problem (CSP) menggunakan dua algoritma:
+- **Backtracking Search** (Systematic Search)
+- **Hill Climbing** (Local Search)
 
-## Available Scripts
+## 📋 Deskripsi Masalah
 
-In the project directory, you can run:
+**Mahasiswa:** Ani, Budi, Citra, Dedi, Eka  
+**Kelompok:** K1 dan K2
 
-### `npm start`
+**Constraint:**
+1. **C1:** Ani dan Budi tidak boleh berada di kelompok yang sama
+2. **C2:** Citra harus berada di kelompok yang sama dengan Dedi
+3. **C3:** Eka tidak boleh sendirian (minimal 1 teman)
+4. **C4:** Setiap kelompok harus berisi minimal 2 mahasiswa
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Live Demo:** [https://dakim777.github.io/CSP-VISUALIZATION-IB/](https://dakim777.github.io/CSP-VISUALIZATION-IB/)
 
-### `npm test`
+## 🎯 Fitur
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ✅ Visualisasi real-time proses algoritma
+- ✅ Perbandingan Backtracking vs Hill Climbing
+- ✅ Animasi step-by-step
+- ✅ Status constraint checker
+- ✅ Statistik iterasi dan backtrack
+- ✅ Log detail setiap langkah
 
-### `npm run build`
+## 🛠️ Teknologi
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React.js
+- Tailwind CSS
+- Lucide React Icons
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 Instalasi & Menjalankan Lokal
+```bash
+# Clone repository
+git clone https://github.com/dakim777/CSP-VISUALIZATION-IB.git
+cd CSP-VISUALIZATION-IB
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+npm install
 
-### `npm run eject`
+# Jalankan development server
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Buka [http://localhost:3000](http://localhost:3000) di browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Build untuk Production
+```bash
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+File production akan ada di folder `build/`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎓 Cara Menggunakan
 
-## Learn More
+1. **Pilih Algoritma** - Backtracking Search atau Hill Climbing
+2. **Klik Jalankan** - Lihat proses step-by-step
+3. **Skip** - Langsung ke hasil akhir (opsional)
+4. **Reset** - Mulai dari awal
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Perbedaan Algoritma
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Aspek | Backtracking | Hill Climbing |
+|-------|-------------|---------------|
+| Jenis | Systematic | Heuristic |
+| Kecepatan | Lambat | Cepat |
+| Solusi | Semua (6 solusi) | 1 atau 0 |
+| Jaminan | Pasti ketemu | Bisa terjebak |
 
-### Code Splitting
+## 📸 Screenshot
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+*Tambahkan screenshot visualisasi Anda di sini*
 
-### Analyzing the Bundle Size
+## 👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Muhammad Dakim**  
+Tugas Kuliah - Kecerdasan Buatan
 
-### Making a Progressive Web App
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+MIT License
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ **Star repository ini jika bermanfaat!**
